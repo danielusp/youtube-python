@@ -14,11 +14,3 @@ stop:
 
 sh:
 	@docker exec -it youtube-dev sh
-
-test:
-	@docker run -it \
-	--net=host \
-	-v "${PWD}:/usr/src/app" \
-	--name facebook-news-publisher-dev \
-	--rm facebook-news-publisher:dev \
-	npm test

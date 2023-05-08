@@ -1,7 +1,17 @@
 # Youtube Download
 
+Download videos from YouTube
+
+## Start application
+
 ```sh
-$ ./run [youtube-url] [file-name]
+make build
+```
+
+## Run download
+
+```sh
+$ ./run [youtube-url] [file-name].mp4
 ```
 
 ## Downloaded videos
