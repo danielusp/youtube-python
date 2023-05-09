@@ -11,8 +11,10 @@ make build
 ## Run download
 
 ```sh
-$ ./run [youtube-url] [file-name].mp4
+$ ./run.sh
 ```
+
+Select an option and insert the video's YT ID
 
 ## Downloaded videos
 
