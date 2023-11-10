@@ -1,5 +1,5 @@
 build:
-	@docker build -t youtube:dev .
+	@docker build -t youtube:dev --network=hots .
 
 stop:
 	@docker stop youtube-dev
