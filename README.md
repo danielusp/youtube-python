@@ -14,7 +14,7 @@ make build
 $ ./run.sh
 ```
 
-Select an option and insert the video's YT ID
+Select an option and insert the video's *YouTube* ID or streaming *m3u8* url.
 
 ## Downloaded videos
 
